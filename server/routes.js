@@ -4,6 +4,7 @@ module.exports = (app)=>{
 	});
 	
 	app.post("/name",(req,res)=>{
+		console.log(req.body);
 		res.json(req.body);
 	});
 }
